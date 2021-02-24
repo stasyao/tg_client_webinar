@@ -1,3 +1,4 @@
-.env
-.session
-./env
+./.env
+./.session
+./venv
+./test.db
