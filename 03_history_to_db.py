@@ -32,6 +32,7 @@ with tg_clone_of_me as app:
                 limit=20
             ):
             # и записываем данные из этих сообщений в нашу базу
+            # скачайте браузер https://sqlitebrowser.org/dl/, чтобы посмотреть содержимое базы в удобоваримом формате
                 cur.execute(
                     "INSERT INTO TestMessages VALUES(?, ?, ?, ?)", (
                         message.message_id,
