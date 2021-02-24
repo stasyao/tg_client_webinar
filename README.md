@@ -3,10 +3,31 @@
 ## Инструкция по запуску на своей машине
 
 1. Клонируйте репозиторий `git clone https://github.com/stasyao/tg_client_webinar`
-2. Установите в директории проекта и разверните виртуальное окружение
+2. Перейдите в директорию проекта (tg_client_webinar), установите и разверните виртуальное окружение
 - `python -m venv venv` (в директории проекта появится папка venv)
 - `source venv/Scripts/activate` (в терминале над строкой для ввода команд появится обозначение (venv) - значит, виртуальное окружение активировано)
 - `pip install -r requirements.txt` (установятся все необходимые библиотеки)
+
+```
+user@Garanzha MINGW64 /c/Desktop
+$ git clone https://github.com/stasyao/tg_client_webinar
+Cloning into 'tg_client_webinar'...
+...
+
+user@Garanzha MINGW64 /c/Desktop
+$ cd tg_client_webinar/
+
+user@Garanzha MINGW64 /c/Desktop/tg_client_webinar (master)
+$ python -m venv venv
+
+user@Garanzha MINGW64 /c/Desktop/tg_client_webinar (master)
+$ source venv/Scripts/activate
+
+(venv)
+user@Garanzha MINGW64 /c/Desktop/tg_client_webinar (master)
+$ pip install -r requirements.txt
+```
+
 3. Создайте своё телеграмм-приложение и получите его id и hash. Как это сделать, [описано тут](https://docs.google.com/document/d/1RvfjtGdEA-M_nz9v1RRCL2VNeC1fCg4SgmuFoD1BZ4I/edit?usp=sharing).
 4. Создайте в директории проекта файл .env. В нем нужно прописать две строки:
 - первая строка: API_ID=
