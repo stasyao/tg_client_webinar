@@ -7,4 +7,4 @@
 - `python -m venv venv` (в директории проекта появится папка venv)
 - `source venv/Scripts/activate` (в терминале над строкой для ввода команд появится обозначение (venv) - значит, виртуальное окружение активировано)
 - `pip install -r requirements.txt` (установятся все необходимые библиотеки)
-3. Создайте своё телеграмм-приложение, чтобы получить api_id и api_hash. Как это сделать, (описано тут)[https://docs.google.com/document/d/1RvfjtGdEA-M_nz9v1RRCL2VNeC1fCg4SgmuFoD1BZ4I/edit?usp=sharing]
+3. Создайте своё телеграмм-приложение, чтобы получить api_id и api_hash. Как это сделать, [описано тут](https://docs.google.com/document/d/1RvfjtGdEA-M_nz9v1RRCL2VNeC1fCg4SgmuFoD1BZ4I/edit?usp=sharing)
